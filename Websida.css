@@ -1,34 +1,37 @@
-.Huvudmeny
-{
-background-image:url("https://img.elo7.com.br/product/original/104A54E/painel-em-lona-minecraft-2x1-minecraft.jpg")
-   
-}
 
-.PvP
-{
-    background-image:url("https://static.planetminecraft.com/files/resource_media/screenshot/1335/wallpaper-1934813_6262809_lrg.jpg")
+/* Allt jag skriver inom dessa brackets går bara till den designerade klassen, I detta fallet är det "Huvudmenyn"*/
+.Huvudmeny{
     
-     
-    
-}
+    /* Gör så att backgrunden bir likadan som bilden som är länkad*/
+    background-image:url("https://img.elo7.com.br/product/original/104A54E/painel-em-lona-minecraft-2x1-minecraft.jpg")
+          }
 
 
-.Byggande
-{
-     background-image:url("https://i.ytimg.com/vi/oqb59XNk0Wg/maxresdefault.jpg")
+.PvP{
     
+    background-image:url("https://static.planetminecraft.com/files/resource_media/screenshot/1335/wallpaper-1934813_6262809_lrg.jpg")          }
+
+
+.Byggande{
     
-    }
-.table1
-{
-width: 1000px;
-border-collapse:collapse;
+    background-image:url("https://i.ytimg.com/vi/oqb59XNk0Wg/maxresdefault.jpg")
+      }
+
+.table1{
+    /*Ändrar bredden på tabellen till 500px*/
+    width: 500px;
+    /*Gör så att linjerna mellan tabbelerna bi till en linje*/
+    border-collapse:collapse;
+    /*Gör bordern mellan cellerna svart och 1px stor*/
     border:1px solid black;
+      }
 
 
-}
 .tr1{
+    /*Gör bakgrundsfärgen svart*/
     background-color:Black;
+    /*Gör texten vit*/
+    color:White;
    
     
 }
@@ -58,15 +61,66 @@ border-collapse:collapse;
     
     }
 
+
 caption{
     font-size:50px;
-}
+    color: white;
+    }
 
 
 
 td{
    border:1px solid black;
-}
+    }
+
 th{
    border:1px solid black;
-}
+    }
+
+
+p{
+    color: white;
+    }
+
+
+
+
+a{
+    color:white;
+    }
+
+
+
+
+.Lista{
+    /*Gör så att listan får en speciell stil*/
+    list-style-type: circle;
+    }
+
+
+
+.Lista2{
+    color:black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
