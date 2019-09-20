@@ -19,3 +19,54 @@ background-image:url("https://img.elo7.com.br/product/original/104A54E/painel-em
     
     
     }
+.table1
+{
+width: 1000px;
+border-collapse:collapse;
+    border:1px solid black;
+
+
+}
+.tr1{
+    background-color:Black;
+   
+    
+}
+
+.tr2{
+    background-color:Brown;
+    
+}
+
+.tr3{
+    background-color:Grey;
+    
+}
+
+.tr4{ 
+    background-color:Yellow;
+    
+}
+
+.tr5{
+    background-color: gold;
+    
+    }
+
+.tr6{
+    background-color: Blue;
+    
+    }
+
+caption{
+    font-size:50px;
+}
+
+
+
+td{
+   border:1px solid black;
+}
+th{
+   border:1px solid black;
+}
